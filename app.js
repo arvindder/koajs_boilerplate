@@ -28,7 +28,7 @@ router.get('/', async ctx => {
 
 //Router
 router.get('/test', (ctx,next) => {
-    ctx.body = "Hello World";
+    ctx.body = "Hello bro";
 });
 
 //Router middleware
